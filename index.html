@@ -1,0 +1,27 @@
+<!-- V 1.0.0.0 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Troubleshooting Guide</title>
+    <link rel="stylesheet" href="src/frontend/styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Troubleshooting Guide</h1>
+    </header>
+    <main>
+        <section id="categories">
+            <h2>Select a Category</h2>
+            <button onclick="showSteps('network')">Network Issue</button>
+            <button onclick="showSteps('login')">Login Issue</button>
+        </section>
+        <section id="steps">
+            <h2>Troubleshooting Steps</h2>
+            <ul id="steps-list"></ul>
+        </section>
+    </main>
+    <script src="src/frontend/app.js"></script>
+</body>
+</html>
