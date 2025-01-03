@@ -1,31 +1,31 @@
 /* V 1.0.0.0 */
 
 /* Navbar Styling */
-nav {
+
+.navbar {
     background-color: #4CAF50;
     padding: 1rem;
     display: flex;
     justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.navbar {
-    list-style-type: none;
+.navbar-list {
+    list-style: none;
     display: flex;
-    justify-content: center;
     gap: 2rem;
     margin: 0;
     padding: 0;
 }
 
-.navbar li {
+.navbar-list li {
     display: inline;
 }
 
-.navbar a {
+.navbar-list a {
     text-decoration: none;
     font-size: 1.2rem;
     color: white;
@@ -33,7 +33,7 @@ nav {
     transition: color 0.3s ease;
 }
 
-.navbar a:hover {
+.navbar-list a:hover {
     color: #333;
     border-bottom: 2px solid white;
 }
