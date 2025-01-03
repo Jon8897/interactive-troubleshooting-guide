@@ -55,8 +55,3 @@ To use a local development server:
 ### License
 
 This project is not open source. Unauthorized use, modification, or distribution is prohibited. See LICENSE for more details.
-
-## Next Steps
-1. Replace `yourusername` in the `git clone` command with your GitHub username.
-2. Modify any specific details as needed (e.g., additional setup instructions if you add dependencies).
-3. Let me know if you'd like any refinements or additional sections!
