@@ -14,8 +14,24 @@
     <main>
         <section id="categories">
             <h2>Select a Category</h2>
-            <button onclick="showSteps('network')">Network Issue</button>
-            <button onclick="showSteps('login')">Login Issue</button>
+            <div>
+                <div class="category-card" onclick="showSteps('network')">
+                    <i class="fa fa-wifi"></i>
+                    <p>Network Issue</p>
+                </div>
+                <div class="category-card" onclick="showSteps('login')">
+                    <i class="fa fa-wifi"></i>
+                    <p>Login Issue</p>
+                </div>
+                <div class="category-card" onclick="showSteps('software')">
+                    <i class="fa fa-wifi"></i>
+                    <p>Software Issue</p>
+                </div>
+                <div class="category-card" onclick="showSteps('hardware')">
+                    <i class="fa fa-wifi"></i>
+                    <p>hardware Issue</p>
+                </div>
+            </div>
         </section>
         <section id="steps">
             <h2>Troubleshooting Steps</h2>
