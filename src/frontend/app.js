@@ -12,6 +12,18 @@ const troubleshootingSteps = {
         "Check if Caps Lock is enabled.",
         "Reset your password if necessary.",
         "Contact support for further assistance."
+    ],
+    software: [
+        "Restart the application.",
+        "Check for available updates.",
+        "Reinstall the software if necessary.",
+        "Consult the application’s support page."
+    ],
+    hardware: [
+        "Ensure the device is powered on.",
+        "Check all cable connections.",
+        "Restart the device.",
+        "Contact technical support if the issue persists."
     ]
 };
 
