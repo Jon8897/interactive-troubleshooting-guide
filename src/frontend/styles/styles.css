@@ -69,8 +69,35 @@
     }
 }
 
-/* Main Styling */
+/* Hero Section Styling */
+.hero {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
 
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* About Section Styling */
+#about {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Main Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -93,6 +120,7 @@ main {
     align-items: center;
 }
 
+/* Category Styling */
 .category-container {
     display: flex;
     flex-wrap: wrap;
@@ -103,16 +131,11 @@ main {
 
 .category-card {
     background-color: white;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    text-align: center;
+    padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -122,17 +145,35 @@ main {
 }
 
 .category-card i {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #4CAF50;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-.category-card p {
-    margin: 0;
-    font-size: 1rem;
+.category-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
     color: #333;
 }
 
+.category-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.category-link {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.category-link:hover {
+    color: #357037;
+}
+
+/* Steps Styling */
 #steps {
     margin-top: 2rem;
     text-align: left;
@@ -155,7 +196,6 @@ main {
 }
 
 /* Footer Styling */
-
 footer {
     background-color: #357037;
     color: white;
