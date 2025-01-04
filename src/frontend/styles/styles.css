@@ -184,6 +184,18 @@ main {
     text-align: center;
 }
 
+#issue-about h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+#issue-about p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+}
+
 /* Footer Styling */
 footer {
     background-color: #357037;
