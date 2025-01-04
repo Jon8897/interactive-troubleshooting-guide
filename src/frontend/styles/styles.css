@@ -196,6 +196,40 @@ main {
     line-height: 1.6;
 }
 
+/* Issue Card Container styling */
+.issue-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.issue-card{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 9px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.issue-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.issue-card h3 {
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.issue-card p {
+    color: #333;
+    font-size: 1rem;
+}
+
 /* Footer Styling */
 footer {
     background-color: #357037;
