@@ -31,6 +31,71 @@
     </header>
     
     <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Network Issues</h1>
+            <p>Resolve common connectivity issues and optimize your network performance.</p>
+        </section>
+
+        <!-- Issue About Section-->
+        <section class="issue-about">
+            <h2>About Network Troubleshooting</h2>
+            <div class="issue-card-container">
+                <div class="card">
+                    <h3>Connectivity</h3>
+                    <p>Learn how to fix frequent disconnections and network instability.</p>
+                </div>
+                <div class="card">
+                    <h3>Speed</h3>
+                    <p>Understand why your internet might be slow and how to optimize it.</p>
+                </div>
+                <div class="card">
+                    <h3>Hardware</h3>
+                    <p>Check your router or modem for physical issues that might affect your network.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Common Issues Section-->
+        <section id="common-issues">
+            <h2>Common Network Issues</h2>
+            <div class="issue-card-container">
+                <div class="card" onclick="showIssueDetails('issue1')">
+                    <h3>Wi-Fi Connection Dropping</h3>
+                </div>
+                <div class="card" onclick="showIssueDetails('issue2')">
+                    <h3>Unable to Connect to Internet</h3>
+                </div>
+                <div class="card" onclick="showIssueDetails('issue3')">
+                    <h3>Slow Internet Speeds</h3>
+                </div>
+                <div class="card" onclick="showIssueDetails('issue4')">
+                    <h3>Router Not Responding</h3>
+                </div>
+            </div>
+            <div id="issue-details"></div>
+        </section>
+
+        <!-- Troubleshooting Section-->
+        <section id="troubleshooting">
+            <h2>Troubleshooting Steps</h2>
+            <ol>
+                <li>Restart your router or modem.</li>
+                <li>Ensure your device is connected to the correct Wi-Fi network.</li>
+                <li>Check your cables for damage.</li>
+                <li>Contact your ISP for assistance.</li>
+            </ol>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources">
+            <h2>Useful Resources</h2>
+            <ul>
+                <li><a href="https://www.speedtest.net/" target="_blank">Speed Test Tool</a></li>
+                <li><a href="https://support.google.com/chromecast/answer/6260802" target="_blank">Google Wi-Fi Support</a></li>
+                <li><a href="https://www.tp-link.com/us/support/faq/" target="_blank">TP-Link Router FAQ</a></li>
+            </ul>
+        </section>
     </main>
 
     <footer>
