@@ -31,30 +31,62 @@
     </header>
     
     <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Interactive Troubleshooting Guide</h1>
+            <p>Use this guide to help you troubleshoot common issues with your computer.</p>
+        </section>
+
+        <!-- About Section-->
+         <section class="about">
+            <h2>About This Guide</h2>
+            <p>
+                This guide is designed to help users troubleshoot common technical issues effortlessly. 
+                From network and hardware problems to software bugs and WordPress errors, we’ve got you covered!
+            </p>
+         </section>
+
+        <!-- Categories Section -->
         <section id="categories">
-            <h2>Select a Category</h2>
+            <h2>Explore Categories</h2>
             <div class="category-container">
-                <div class="category-card" onclick="showSteps('network')">
+                <div class="category-card">
                     <i class="fa fa-wifi"></i>
-                    <p>Network Issue</p>
+                    <h3>Network Issue</h3>
+                    <p>Fix connectivity issues and optimize your network performance.</p>
+                    <a href="src/frontend/pages/network.html" class="category-link">Learn More</a>
                 </div>
-                <div class="category-card" onclick="showSteps('login')">
-                    <i class="fa fa-wifi"></i>
-                    <p>Login Issue</p>
+                <div class="category-card">
+                    <i class="fa fa-desktop"></i>
+                    <h3>Hardware Issues</h3>
+                    <p>Diagnose hardware problems and learn how to fix them.</p>
+                    <a href="src/frontend/pages/hardware.html" class="category-link">Learn More</a>
                 </div>
-                <div class="category-card" onclick="showSteps('software')">
-                    <i class="fa fa-wifi"></i>
-                    <p>Software Issue</p>
+                <div class="category-card">
+                    <i class="fa fa-laptop-code"></i>
+                    <h3>Software Issue</h3>
+                    <p>Fix application errors and optimize software performance.</p>
+                    <a href="src/frontend/pages/software.html" class="category-link">Learn More</a>
                 </div>
-                <div class="category-card" onclick="showSteps('hardware')">
-                    <i class="fa fa-wifi"></i>
-                    <p>hardware Issue</p>
+                <div class="category-card">
+                    <i class="fa-brands fa-wordpress"></i>
+                    <h3>WordPress</h3>
+                    <p>Resolve common WordPress errors and configuration issues.</p>
+                    <a href="src/frontend/pages/wordpress.html" class="category-link">Learn More</a>
+                </div>
+                <div class="category-card">
+                    <i class="fa fa-shield-alt"></i>
+                    <h3>Cybersecurity</h3>
+                    <p>Protect your systems and secure your data.</p>
+                    <a href="src/frontend/pages/cybersecurity.html" class="category-link">Learn More</a>
+                </div>
+                <div class="category-card">
+                    <i class="fa-solid fa-tachograph-digital"></i>
+                    <h3>Performance</h3>
+                    <p>Optimize your device’s speed and performance.</p>
+                    <a href="src/frontend/pages/performance.html" class="category-link">Learn More</a>
                 </div>
             </div>
-        </section>
-        <section id="steps">
-            <h2>Troubleshooting Steps</h2>
-            <ul id="steps-list"></ul>
         </section>
     </main>
 
@@ -67,6 +99,6 @@
     </footer>
 
     <script src="src/frontend/app.js"></script>
-    
+
 </body>
 </html>
