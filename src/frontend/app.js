@@ -14,6 +14,7 @@ function showIssueDetails(issueKey) {
     if (issueDescriptions[issueKey]) {
         details.innerHTML = `<p>${issueDescriptions[issueKey]}</p>`;
         details.style.display = "block"; // Ensure details are visible
+        details.style.padding = "1rem"; // Add padding to details
     } else {
         details.innerHTML = "<p>Details for this issue are not available.</p>";
     }
